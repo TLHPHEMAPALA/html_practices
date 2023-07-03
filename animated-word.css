@@ -1,0 +1,30 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.animated-words{
+    display: flex;
+    font-size:140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.letter{
+    color: rgb(255, 0, 98);
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: grab;
+}
+
+.letter:hover{
+    transform: translateY(-1rem);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:blue;
+}
